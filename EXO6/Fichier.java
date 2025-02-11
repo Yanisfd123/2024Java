@@ -25,7 +25,7 @@ public class Fichier {
         }
 
         try{
-            FileWriter ecrivain = new FileWriter("EXO6/liste.txt", append:true);
+            FileWriter ecrivain = new FileWriter("EXO6/liste.txt",true);
             ecrivain.write("\n yaniss");
             ecrivain.close();
             System.out.println("Ecriture termine");
@@ -36,9 +36,6 @@ public class Fichier {
         }
     }
   
-    
-
-   
     
 }
  
